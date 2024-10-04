@@ -15,7 +15,7 @@ function App() {
             type="text"
             id="name"
             name="name"
-            placeholder="Your Name"
+            placeholder="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
